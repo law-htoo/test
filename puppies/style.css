@@ -1,0 +1,118 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poltawski+Nowy&display=swap');
+
+body{
+  font-family: 'Poltawski Nowy', serif;
+  margin:0;
+  background-color: lightgray;
+}
+h1{
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+  font-size: 4em;
+  color: Purple;
+}
+h2{
+  color: gray;
+}
+h3{
+  color: hotpink;
+}
+main{
+  max-width: 1200px;
+  margin: 20px auto;
+}
+footer{
+  text-align: center;
+  border-top: 1px solid #95c8d8;
+  padding: 10px;
+  background-color: pink;
+}
+
+a:link{
+color: purple;
+}
+a:visited{
+color: purple;
+}
+a:hover{
+color: blue;
+}
+a:active{
+color: black;
+}
+
+/* Vertical Navigation bar */
+
+nav{
+  background-color: hotpink;
+  border-top: 2px lightpink;
+  border-cottom: 2px lightpink;
+  padding: 5px;
+}
+nav ul{
+  list-style-type: none;
+  text-align: center;
+}
+nav li{
+  display: inline;
+}
+nav a{
+  text-decoration: none;
+  padding-right: 10px;
+}
+nav a:link{
+  color: purple;
+}
+nav a:visited{
+  color: purple;
+}
+nav a:hover{
+  color: purple;
+}
+nav a:active{
+  color: darkgreen;
+}
+.fa{
+  color: #0080FE;
+  font-size: 5em;
+}
+.home-hero{
+  background-image:url(images/header.jpg);
+  height: 475px;
+  background-size:cover;
+  background-cover: center;
+  color: #042837;
+  padding: 10px 10px 10px 30px;
+}
+blockquote{
+    background-color: #95c8d8;
+    border: 10px double pink;
+    padding: 30px;
+}
+.col-sm-4{
+  : 2px solid red;
+  border-radius: 20px;
+}
+img{
+  display: block;
+  margin: 0 auto;
+  border: 2px solid pink;
+  border-radius: 80px;
+}
+
+/* CSS Adjustments for Tablets */
+
+@media only screen and (max-width: 1024px){
+  h1{
+    font-size: 2em;
+  }
+}
+
+/* CSS Adjustments for Smartphones */
+
+@media only screen and (max-width: 768px){
+  h1{
+    font-size: 1.5em;
+  }
+}
